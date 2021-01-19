@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">header</div>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <img src="Icon contacto 3.svg" alt="" style="width:60px">
+                    </span>
+                    <span class="title">CONTACTOS</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <img src="Icon Inmuebles.svg" alt="">
+                    </span>
+                    <span class="title">INMUEBLES</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <img src="Icon Agenda.svg" alt="">
+                    </span>
+                    <span class="title">AGENDA</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <img src="Icon Dashboard.svg" alt="">
+                    </span>
+                    <span class="title">REPORTES</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <img src="Icon tutorial.svg" alt="">
+                    </span>
+                    <span class="title">TUTORIALES</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <img src="Icon configuracion 3.svg" alt="">
+                    </span>
+                    <span class="title">CONFIGURACION</span>
+                </a>
+            </li>
+        </ul>
+    </div>  
+    <div class="toggle" onclick="toggleMenu()"></div>
+
+    <script src="https://kit.fontawesome.com/1a78bd2af6.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleMenu(){
+            let navigation = document.querySelector('.navigation') 
+            let toggle = document.querySelector('.toggle')
+            navigation.classList.toggle('active')
+            toggle.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
