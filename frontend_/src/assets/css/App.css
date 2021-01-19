@@ -1,0 +1,174 @@
+@font-face{
+  font-family: "Monserrat";
+  src: local('?'),
+    url('../fonts/Montserrat-Light.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face{
+  font-family: "Monserrat";
+  src: local('?'),
+    url('../fonts/Montserrat-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face{
+  font-family: "Monserrat";
+  src: local('?'),
+    url('../fonts/Montserrat-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+  font-family: "Monserrat";
+  src: local('?'),
+    url('../fonts/Montserrat-ExtraBoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face{
+  font-family: "Monserrat";
+  src: local('?'),
+    url('../fonts/Montserrat-SemiBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.paralelogramo {
+  width: 120px; 
+  margin: 10px;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -ms-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+  transform: skew(-20deg);
+  display:inline-block;
+  
+  background: rgba(52,69,247,1);
+  background: -moz-linear-gradient(45deg, rgba(52,69,247,1) 0%, rgba(84,159,240,1) 31%, rgba(84,209,240,1) 68%, rgba(24,240,229,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(52,69,247,1)), color-stop(31%, rgba(84,159,240,1)), color-stop(68%, rgba(84,209,240,1)), color-stop(100%, rgba(24,240,229,1)));
+  background: -webkit-linear-gradient(45deg, rgba(52,69,247,1) 0%, rgba(84,159,240,1) 31%, rgba(84,209,240,1) 68%, rgba(24,240,229,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(52,69,247,1) 0%, rgba(84,159,240,1) 31%, rgba(84,209,240,1) 68%, rgba(24,240,229,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(52,69,247,1) 0%, rgba(84,159,240,1) 31%, rgba(84,209,240,1) 68%, rgba(24,240,229,1) 100%);
+  background: linear-gradient(45deg, rgba(52,69,247,1) 0%, rgba(84,159,240,1) 31%, rgba(84,209,240,1) 68%, rgba(24,240,229,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3445f7', endColorstr='#18f0e5', GradientType=1 );
+
+  background-size: 200%;
+  transition: 0.6s;
+}
+.boton:hover{
+  cursor: pointer;
+  background-position:right;
+}
+
+.header-principal{
+  position: fixed;
+  width: 100%;
+  height: 93.89px;
+  background-color: white;
+  z-index: 23;
+}
+
+.profile-img{
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%; 
+}
+.rol-usuario{
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+.flecha {
+  color:white;
+  text-shadow: 0px 0px 3px black;
+  font-size: 30px;
+}
+
+.nav{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  
+  background-image: url('../img/Fondo\ gris\ Movil.svg');
+  background-size: cover;
+  z-index: 20;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 80px;
+  bottom:0;
+  color:#FFF;
+  font-size: 8px;
+  
+  background-image: url('../img/Fondo\ gris\ Movil.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  z-index: 101;
+}
+footer .row{
+  transform: rotate(180deg);
+}
+footer p{
+  margin-bottom: 0!important;
+}
+.footer-web{
+  font-size: 15px;
+}
+.img_logo{
+  height: 50px;
+  color:black;
+}
+.ubicacion, .icono-2 {
+  display:inline-block;
+}
+
+.fondo-principal{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../img/Fondo-lentes-Web.jpg');
+  background-position: top left;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
+.fondo-trabajo{
+  width: 100%;
+  min-height: 100vh;
+  background-position: top left;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
+.container_principal{
+  width: 100%;
+  padding-top: 70px;
+  padding-left: 30px;
+  transition: .5s;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.seccion-actual{
+  background-position:right;
+}
+.paralelogramo{
+  padding-top: 20px;
+}
+.paralelogramo img{
+  width: 100%;
+  height: 84px;
+}
+
+.u-der{
+  display: none!important;
+}
+.u-izq{
+  display: inline-block!important;
+}
+

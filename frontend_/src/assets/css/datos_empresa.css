@@ -1,0 +1,125 @@
+.formulario_iconos_sociales{
+    height: 110px;
+}
+.formulario_iconos_sociales img{
+    width: 50px;
+    height: 50px;
+}
+.social-media-inputs{
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-radius: 14px;
+    width: 100%;
+}
+.formulario_iconos_sociales .selected{
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    border-bottom: 4px solid red
+}
+.social-media-inputs .input-group-text{
+    width: 160px;
+}
+.social-media-inputs .input-group{
+    width: 100%;
+}
+.alert{
+    color: #FFF;
+    background-color: rgba(212, 237, 218, 0.44);
+    border-color: rgba(212, 237, 218, 0.44);
+}
+.caja-roja{
+    border:3px solid #E12518;
+    width: 160px;
+    min-height: 160px;
+    box-shadow: 1px 2px 6px black;
+    transition: .5s;
+}
+.caja-roja-mini{
+    border:1px solid #FFF;
+    border-radius: 10px;
+    /* width: 160px; */
+    /* min-height: 160px; */
+    box-shadow: 1px 2px 6px black;
+    transition: .5s;
+}
+.caja-mini{
+    border-radius: 20%;
+    /* width: 160px; */
+    /* min-height: 160px; */
+    box-shadow: 1px 2px 6px black;
+    transition: .5s;
+}
+.activo{
+    border:1px solid  rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.caja-mini .img img{
+    width: 30px;
+}
+.caja-roja:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.caja-texto p{
+    color: #FFF;
+    text-align: center;
+    padding-top: 20px;
+}
+.caja-icono{
+    width: 90px;
+    height: 90px;
+}
+/* .caja-icono-sm{
+    width: 70px;
+    height: 70px;
+} */
+.opcion-f-s{
+    width: 150px;
+    border: #E12518 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    transition: .5s;
+    margin: 10px 0;
+}
+.opcion-f-s:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.mostrar{
+    opacity: 1;
+    transition: .5s;
+}
+
+.hidden{
+    display: none;
+}
+  
+.ocultar{
+    opacity: 0;
+}
+hr{
+    border: 3px white solid;
+}
+select option:hover {
+    box-shadow: 0 0 10px 100px #000 inset;
+}
+.tipo-contacto .tipo-h1{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+.tipo-contacto .tipo{
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+}
+.tipo-contacto .img{
+    width: 100px;
+}
+.label_file_datos_empresa{
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+}

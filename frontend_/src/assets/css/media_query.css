@@ -1,0 +1,125 @@
+/* Cuando es movil */
+@media (max-width:767px){
+    .navigation{
+        left: -60px;
+    }
+    .navigation.active{
+        left: 0px;
+        width: 70%;
+    }
+    .fondo_oscuro.active{
+        right: 0px;
+        width: 30%;
+    }
+    .header-principal{
+        display:none!important;
+      }
+      .logo{
+        display:block!important;
+      }
+      .botones-principal:nth-child(1){
+        margin-top: 5vh;
+      }
+      .oculto-movil{
+        display: none;
+      }  
+      .container_principal.active{
+        opacity: 0;
+      }
+      .social-media-inputs{
+        background-color: transparent!important;
+        padding: 0!important;
+      }
+      .xs-d-none{
+        display:none!important;
+      }
+      .cambiar_tipo_de_contacto img{
+        width: 35px;
+      }
+}
+/* Vista tablet */
+@media screen and (min-width: 760px) and (max-width:1024px) {
+    .oculto-movil img{
+        width: 60px;
+        height: 60px;
+    }
+    .oculto-movil h4{
+        font-size: 10px;
+    }
+    .oculto-movil{
+        padding-left: 30px;
+    }
+    .botones-funcionales-mobile {
+      display: none;
+    }
+    .bandin-card .card-body img{
+      width: 80px;
+    }
+    .bandin-card .card-body p{
+      text-align: right;
+    }
+    .sm-d-none{
+      display:none;
+    }
+    .cambiar_tipo_de_contacto img{
+      width: 40px;
+    }
+}
+/* Cuando es Desktop */
+@media screen and (min-width: 500px) {
+  .navigation {
+    top:143.88px!important;
+  }
+  .acceso_rapido{
+      display:none!important;
+  }
+  .paralelogramo{
+    width: 220px; 
+  }
+  .botones-principal{
+    margin: 70px 0;
+  }
+  .u-izq{
+    display: none!important;
+  }
+  .u-der{
+    display: inline-block!important;
+  }
+  .nav{
+    align-items: center!important;
+    top:93.89px;
+  }
+  .fondo-principal{
+    background-image: url('../img/Fondo\ lentes\ rayas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .fondo-trabajo{
+    background-image: url('../img/Fondo\ trabajo.png');
+  }
+  footer{
+    height: 120px;
+    font-size: 10px;
+  }
+  footer .logo-footer{
+    display:block!important;
+  }
+  .footer-web{
+    font-size: 20px;
+  }
+  .container_principal{
+    padding-top: 150px;
+  }  
+  .botones-funcionales-mobile {
+    display: none;
+  }
+  .lg-d-none{
+    display:none !important;
+  }
+  .bandin-card img{
+    width: 70px;
+  }
+  .cambiar_tipo_de_contacto img{
+    width: 40px;
+  }
+}
